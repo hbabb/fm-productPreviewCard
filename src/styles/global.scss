@@ -1,0 +1,19 @@
+@use "reset";
+@use "variables";
+@use "utilities";
+
+/* Global styles */
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--c-cream);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
